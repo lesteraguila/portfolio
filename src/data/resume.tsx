@@ -11,7 +11,7 @@ export const DATA = {
     "Web Developer turned Virtual Assistant. I love building things and helping people. Very active on Tiktok.",
   summary:
     "I'm a web developer turned Virtual Assistant, combining tech expertise with administrative efficiency. With a background in building websites and managing digital platforms, I now help businesses streamline tasks, manage operations, and stay organized. My skills in web development, automation, and digital tools allow me to offer seamless support, from handling emails and scheduling to website maintenance and tech troubleshooting. Let’s work together to boost your productivity!",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.JPG",
   skills: [
     "React",
     "Next.js",

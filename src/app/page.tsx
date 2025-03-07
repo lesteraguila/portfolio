@@ -166,45 +166,58 @@ export default function Page() {
           <Marquee pauseOnHover className="[--duration:20s]">
             <div className="flex items-center gap-3 dark:bg-slate-50">
               <Image
-                src={"/Slack-Logo.png"}
-                alt={""}
-                className="h-[80px] w-auto"
+                src="/Slack-Logo.png"
+                alt="Slack Logo"
+                width={120}
+                height={80}
               />
               <Image
-                src={"/Trello-logo.png"}
-                alt={""}
-                className="h-[80px] w-auto"
+                src="/Trello-logo.png"
+                alt="Trello Logo"
+                width={120}
+                height={80}
               />
               <Image
-                src={"/Viber-Logo-2010.png"}
-                alt={""}
-                className="h-[60px] w-auto"
+                src="/Viber-Logo-2010.png"
+                alt="Viber Logo"
+                width={100}
+                height={60}
               />
               <Image
-                src={"/Zoom-LOgo.png"}
-                alt={""}
-                className="h-[80px] w-auto"
+                src="/Zoom-Logo.png"
+                alt="Zoom Logo"
+                width={120}
+                height={80}
               />
               <Image
-                src={"/clickup.png"}
-                alt={""}
-                className="h-[80px] w-auto"
-              />
-              <Image src={"/asana.png"} alt={""} className="h-[120px] w-auto" />
-              <Image
-                src={"/office365.png"}
-                alt={""}
-                className="h-[150px] w-auto"
+                src="/clickup.png"
+                alt="ClickUp Logo"
+                width={120}
+                height={80}
               />
               <Image
-                src={"/capcut.png"}
-                alt={""}
-                className="h-[120px] w-auto"
+                src="/asana.png"
+                alt="Asana Logo"
+                width={130}
+                height={100}
               />
               <Image
-                src={"/Canva-logo.png"}
-                alt={""}
-                className="h-[60px] w-auto"
+                src="/office365.png"
+                alt="Office 365 Logo"
+                width={150}
+                height={120}
+              />
+              <Image
+                src="/capcut.png"
+                alt="CapCut Logo"
+                width={130}
+                height={100}
+              />
+              <Image
+                src="/Canva-logo.png"
+                alt="Canva Logo"
+                width={100}
+                height={60}
               />
             </div>
           </Marquee>
