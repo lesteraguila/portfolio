@@ -6,6 +6,7 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
+import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -164,24 +165,47 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 10}>
           <Marquee pauseOnHover className="[--duration:20s]">
             <div className="flex items-center gap-3 dark:bg-slate-50">
-              <img src="/Slack-Logo.png" alt="" className="h-[80px] w-auto" />
-              <img src="/Trello-logo.png" alt="" className="h-[80px] w-auto" />
-              <img
-                src="/Viber-Logo-2010.png"
-                alt=""
+              <Image
+                src={"/Slack-Logo.png"}
+                alt={""}
+                className="h-[80px] w-auto"
+              />
+              <Image
+                src={"/Trello-logo.png"}
+                alt={""}
+                className="h-[80px] w-auto"
+              />
+              <Image
+                src={"/Viber-Logo-2010.png"}
+                alt={""}
                 className="h-[60px] w-auto"
               />
-              <img src="/Zoom-LOgo.png" alt="" className="h-[80px] w-auto" />
-              <img src="/clickup.png" alt="" className="h-[80px] w-auto" />
-              <img src="/asana.png" alt="" className="h-[120px] w-auto" />
-              <img src="/office365.png" alt="" className="h-[150px] w-auto" />
-              <img
-                src="/google-workspace.png"
-                alt=""
+              <Image
+                src={"/Zoom-LOgo.png"}
+                alt={""}
+                className="h-[80px] w-auto"
+              />
+              <Image
+                src={"/clickup.png"}
+                alt={""}
+                className="h-[80px] w-auto"
+              />
+              <Image src={"/asana.png"} alt={""} className="h-[120px] w-auto" />
+              <Image
+                src={"/office365.png"}
+                alt={""}
+                className="h-[150px] w-auto"
+              />
+              <Image
+                src={"/capcut.png"}
+                alt={""}
+                className="h-[120px] w-auto"
+              />
+              <Image
+                src={"/Canva-logo.png"}
+                alt={""}
                 className="h-[60px] w-auto"
               />
-              <img src="/capcut.png" alt="" className="h-[120px] w-auto" />
-              <img src="/Canva-logo.png" alt="" className="h-[60px] w-auto" />
             </div>
           </Marquee>
         </BlurFade>
@@ -198,9 +222,9 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Here, you'll find a collection of projects showcasing my
+                  Here, you&apos;ll find a collection of projects showcasing my
                   skills in web development, automation, and innovative
-                  solutions. Take a look around and see what I've built!.
+                  solutions. Take a look around and see what I&apos;ve built!.
                 </p>
               </div>
             </div>
@@ -252,7 +276,7 @@ export default function Page() {
                 >
                   email
                 </Link>{" "}
-                me with your inquiries, and I'll get back to you as soon as
+                me with your inquiries, and I&apos;ll get back to you as soon as
                 possible. Serious work inquiries only.
               </p>
             </div>
