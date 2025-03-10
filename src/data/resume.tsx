@@ -3,8 +3,8 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Lester Aguila",
-  initials: "DV",
-  url: "https://dillion.io",
+  initials: "DL",
+  url: "https://portfolio-deans-lester.vercel.app/",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
